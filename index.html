@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navegação -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Arthur Vieira Santana</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Início</a></li>
+                <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li><a href="#projetos" class="nav-link">Projetos</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seção Hero -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Olá! Eu sou <span class="highlight">Arthur</span></h1>
+                <p class="subtitle">Estudante de Análise e Desenvolvimento de Sistemas</p>
+                <p class="description">Bem-vindo ao meu portfólio. Aqui você encontrará meus projetos, habilidades e informações sobre mim.</p>
+                <div class="cta-buttons">
+                    <a href="#projetos" class="btn btn-primary">Ver Meus Projetos</a>
+                    <a href="#contato" class="btn btn-secondary">Entrar em Contato</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="Foto perfil.jpg" alt="Arthur Vieira Santana" class="hero-avatar">
+            </div>  
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Sou um profissional apaixonado por tecnologia e desenvolvimento. Busco sempre criar soluções efetivas e de qualidade.</p>
+                    <p>Minha jornada começou com a curiosidade em entender como as coisas funcionam, e hoje estudo para transformar ideias em realidade através do código.</p>
+                    
+                    <h3>Habilidades Principais</h3>
+                    <div class="skills">
+                        <div class="skill-item">
+                            <span class="skill-name">HTML & CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Git & Versionamento</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>10+</h3>
+                        <p>Projetos Completos</p>
+                    </div>
+                    <div class="stat">
+                        <h3>1</h3>
+                        <p>Anos de Estudos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Projetos -->
+    <section id="projetos" class="projects">
+        <div class="container">
+            <h2 class="section-title">Meus Projetos</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>HardWork</h3>
+                    <p>Projeto de  um site de suplementação, contendo a utilização do Angular CRUD, projeto em grupo na minha faculdade, participei auxiliando na produção do código em html e css, não tive participação na parte de ANGULAR CRUD do projeto, apesar de ter estudado ANGULAR mas de maneira rasa, e também ajudei na criação do conceito da marca e sua identidade. Para acessar login: cliente, senha: cliente. Para acessar o index necessário</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                    </div>
+                    <a href="https://stapani7.github.io/HardWork" class="project-link" target="_blank">Ver Projeto <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Zero Grau Streetwear</h3>
+                    <p>Conceito da marca montado pela minha dupla e o código feito por mim seguindo uma documentação especifica para a montagem do código, uma vivência bem real se pensarmos no mundo da programação.</p>
+                    <div class="project-tags">
+                        <span class="tag">Responsive</span>
+                        <span class="tag">Mobile</span>
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                    </div>
+                    <a href="https://artvieirasantana.github.io/ZeroGrau/" class="project-link" target="_blank">Ver Projeto <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Jogo Java</h3>
+                    <p>Um jogo rpg de texto em java que contém áudio para suavizar a experiência do usuário e feito em grupo.</p>
+                    <div class="project-tags">
+                        <span class="tag">Backend</span>
+                        <span class="tag">Java</span>
+                    </div>
+                    <a href="https://github.com/stapani7/Grupo-3---Turma-A" class="project-link" target="_blank">Ver Projeto <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <h2 class="section-title">Vamos Conversar?</h2>
+            <p class="contact-subtitle">Estou sempre aberto a novas oportunidades e projetos interessantes.</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p><a href="mailto:seu.email@example.com">arthur1vieira2@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Telefone</h3>
+                            <p><a href="tel:+5511978662084">(11) 97866-2084</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Localização</h3>
+                            <p>São Paulo Zona Sul, Brasil</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Seu Nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Seu Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Sua Mensagem" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Arthur Vieira Santana. Todos os direitos reservados.</p>
+                <div class="social-links">
+                    <a href="https://github.com/ArtVieiraSantana" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/arthur-vieira-santana-390757264/" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
